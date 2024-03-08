@@ -1,3 +1,5 @@
+//环形队列java案例
+
 import java.util.Scanner;
 
 class circleQueue {
