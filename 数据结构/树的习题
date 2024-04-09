@@ -1,4 +1,5 @@
-一、判断题
+一、
+判断题
 1.二叉树是度为2的有序树。❎ 0 1都有可能
 2.完全二叉树一定存在度为1的结点。 ❎ 不一定
 3.二叉树的遍历结果不是唯一的。✅ （先序 中序 后序）
@@ -8,7 +9,8 @@
 7.树形结构中元素之间存在一个对多个的关系。 ✅ 
 8.将一棵树转成二叉树，根结点没有左子树。❎
 
-二、有数据 WG={7,19,2,6,32,3,21,10}
+二、
+有数据 WG={7,19,2,6,32,3,21,10}
 则所建 Huffman 树的树高是(6)
 带权路径长度 WPL是(261)。
 
@@ -16,5 +18,32 @@
 例如:
 如果需传送的电文为'ABACCDA’假设 A, B,C D的编码分别为 00,01,10，11,(共 14 位)
 则上述电文便为'00010010101100’译码员按两位进行分组译码，便可恢复原来的电文。
-
 AABBCAA 00 01 00 10
+
+四、
+例如，编制一个程序，将各个分数段换成五个等级输出。大家可能认为这个程序很简单，并且很快就可以用下列形式编写出来:
+public class MaxMinOfThree {
+    public static int maxOfThree(int a, int b, int c) {
+        // Return the maximum of three numbers
+        int maxNum = a;
+        if (b > maxNum) {
+            maxNum = b;
+        }
+        if (c > maxNum) {
+            maxNum = c;
+        }
+        return maxNum;
+    }
+
+    public static int minOfThree(int a, int b, int c) {
+        // Return the minimum of three numbers
+        int minNum = a;
+        if (b < minNum) {
+            minNum = b;
+        }
+        if (c < minNum) {
+            minNum = c;
+        }
+        return minNum;
+    }
+}
